@@ -12,7 +12,7 @@
     <!-- Load robot description -->
     <param name="robot_description" textfile="$(arg description_file)"/>
 
-    <node name="robot_state_publisher" pkg="robot_state_publisher" type="state_publisher">
+    <node name="robot_state_publisher" pkg="robot_state_publisher" type="robot_state_publisher">
         <param name="publish_frequency" value="100"/>
     </node>
 
